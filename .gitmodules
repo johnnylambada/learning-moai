@@ -1,0 +1,3 @@
+[submodule "external/moai-dev"]
+	path = external/moai-dev
+	url = https://github.com/moai/moai-dev.git
