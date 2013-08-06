@@ -1,0 +1,9 @@
+digraph G
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="MOAIHttpTaskBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_http_task_base.html",tooltip="Object for performing asynchronous HTTP/HTTPS tasks.   	&lt;table cellpadding=&quot;8&quot;&gt;&lt;tr..."];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="MOAIHttpTaskNaCl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_http_task_na_cl.html",tooltip="Implementation of MOAIHttpTask based on NaCl."];
+}

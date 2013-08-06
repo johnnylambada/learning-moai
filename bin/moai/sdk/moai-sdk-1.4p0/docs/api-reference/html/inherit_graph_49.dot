@@ -1,0 +1,11 @@
+digraph G
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="MOAIParticlePlugin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_particle_plugin.html",tooltip="Allows custom particle processing."];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="MOAIParticleCallbackPlugin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_particle_callback_plugin.html",tooltip="Allows custom particle processing via C language callbacks."];
+  Node1 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="MOAIParticlePexPlugin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_particle_pex_plugin.html",tooltip="Allows custom particle processing derived from .pex file via C language callback."];
+}

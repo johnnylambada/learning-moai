@@ -1,0 +1,7 @@
+digraph G
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="MOAIFooMgr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_foo_mgr.html",tooltip="Example singleton for extending Moai using MOAILuaObject. Copy this object, rename it and add your ow..."];
+}

@@ -1,0 +1,12 @@
+arm
+armeabi-v7a
+android-10
+false
+true
+
+
+
+
+
+
+

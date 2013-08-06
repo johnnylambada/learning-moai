@@ -1,0 +1,27 @@
+digraph G
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="MOAIBox2DJoint",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="MOAIBox2DDistanceJoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_box2_d_distance_joint.html",tooltip="Box2D distance joint."];
+  Node1 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="MOAIBox2DFrictionJoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_box2_d_friction_joint.html",tooltip="Box2D friction joint."];
+  Node1 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="MOAIBox2DGearJoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_box2_d_gear_joint.html",tooltip="Box2D gear joint."];
+  Node1 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="MOAIBox2DMouseJoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_box2_d_mouse_joint.html",tooltip="Box2D &#39;mouse&#39; joint."];
+  Node1 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="MOAIBox2DPrismaticJoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_box2_d_prismatic_joint.html",tooltip="Box2D prismatic joint."];
+  Node1 -> Node7 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="MOAIBox2DPulleyJoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_box2_d_pulley_joint.html",tooltip="Box2D pulley joint."];
+  Node1 -> Node8 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="MOAIBox2DRevoluteJoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_box2_d_revolute_joint.html",tooltip="Box2D revolute joint."];
+  Node1 -> Node9 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="MOAIBox2DRopeJoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_box2_d_rope_joint.html",tooltip="Box2D weld joint."];
+  Node1 -> Node10 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="MOAIBox2DWeldJoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_box2_d_weld_joint.html",tooltip="Box2D weld joint."];
+  Node1 -> Node11 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="MOAIBox2DWheelJoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_box2_d_wheel_joint.html",tooltip="Box2D weld joint."];
+}

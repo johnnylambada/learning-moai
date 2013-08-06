@@ -1,0 +1,30 @@
+digraph G
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="MOAIParticleSystem",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="MOAIProp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_prop.html",tooltip="Base class for props.   	&lt;table cellpadding=&quot;8&quot;&gt;&lt;tr&gt; &lt;td vertical-align=&quo..."];
+  Node3 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="MOAITransform",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_transform.html",tooltip="Transformation hierarchy node.   	&lt;table cellpadding=&quot;8&quot;&gt;&lt;tr&gt; &lt;td vertical-a..."];
+  Node4 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="MOAITransformBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_transform_base.html",tooltip="Base class for 2D affine transforms.   	&lt;table cellpadding=&quot;8&quot;&gt;&lt;tr&gt; &lt;td vert..."];
+  Node5 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="MOAINode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_node.html",tooltip="Base for all attribute bearing Moai objects and dependency graph nodes."];
+  Node5 -> Node5 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="mPrev\nmNext",fontname="FreeSans"];
+  Node6 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="MOAIColor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_color.html",tooltip="Color vector with animation helper methods.   	&lt;table cellpadding=&quot;8&quot;&gt;&lt;tr&gt; &lt;..."];
+  Node5 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="MOAIRenderable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_renderable.html",tooltip="Abstract base class for objects that can be rendered by MOAIRenderMgr."];
+  Node8 -> Node2 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="mPartition",fontname="FreeSans"];
+  Node8 [label="MOAIPartition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_partition.html",tooltip="Class for optimizing spatial queries against sets of primitives. Configure for performance; default b..."];
+  Node2 -> Node2 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="mNextResult",fontname="FreeSans"];
+  Node9 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="MOAIAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_action.html",tooltip="Base class for actions.   	&lt;table cellpadding=&quot;8&quot;&gt;&lt;tr&gt; &lt;td vertical-align=&q..."];
+  Node10 -> Node9 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="MOAIInstanceEventSource",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_instance_event_source.html",tooltip="Derivation of MOAIEventSource for non-global lua objects."];
+  Node11 -> Node10 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="MOAIEventSource",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_event_source.html",tooltip="Base class for all Lua-bound Moai objects that emit events and have an event table."];
+  Node9 -> Node9 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="mParent",fontname="FreeSans"];
+}

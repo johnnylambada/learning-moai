@@ -1,0 +1,45 @@
+digraph G
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="MOAITransformBase",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="MOAINode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_node.html",tooltip="Base for all attribute bearing Moai objects and dependency graph nodes."];
+  Node1 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="MOAIBox2DBody",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_box2_d_body.html",tooltip="Box2D body.   	&lt;table cellpadding=&quot;8&quot;&gt;&lt;tr&gt; &lt;td vertical-align=&quot;top&quot..."];
+  Node1 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="MOAICpBody",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_cp_body.html",tooltip="Chipmunk Body.   	&lt;table cellpadding=&quot;8&quot;&gt;&lt;tr&gt; &lt;td vertical-align=&quot;top&q..."];
+  Node1 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="MOAITransform",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_transform.html",tooltip="Transformation hierarchy node.   	&lt;table cellpadding=&quot;8&quot;&gt;&lt;tr&gt; &lt;td vertical-a..."];
+  Node5 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="MOAICamera",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_camera.html",tooltip="Perspective or orthographic camera."];
+  Node5 -> Node7 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="MOAILayerBridge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_layer_bridge.html",tooltip="2D transform for connecting transforms across scenes. Useful for HUD overlay items and map pins..."];
+  Node5 -> Node8 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="MOAIParticleEmitter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_particle_emitter.html",tooltip="Particle emitter."];
+  Node8 -> Node9 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="MOAIParticleDistanceEmitter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_particle_distance_emitter.html",tooltip="Particle emitter."];
+  Node8 -> Node10 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="MOAIParticleTimedEmitter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_particle_timed_emitter.html",tooltip="Particle emitter."];
+  Node5 -> Node11 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="MOAIParticleForce",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_particle_force.html",tooltip="Particle force.   	&lt;table cellpadding=&quot;8&quot;&gt;&lt;tr&gt; &lt;td vertical-align=&quot;top&..."];
+  Node5 -> Node12 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="MOAIProp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_prop.html",tooltip="Base class for props.   	&lt;table cellpadding=&quot;8&quot;&gt;&lt;tr&gt; &lt;td vertical-align=&quo..."];
+  Node12 -> Node13 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="MOAILayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_layer.html",tooltip="Scene controls class.   	&lt;table cellpadding=&quot;8&quot;&gt;&lt;tr&gt; &lt;td vertical-align=&quo..."];
+  Node12 -> Node14 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="MOAIParticleSystem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_particle_system.html",tooltip="Particle system."];
+  Node12 -> Node15 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="MOAITextBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_text_box.html"];
+  Node5 -> Node16 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="MOAIScissorRect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_scissor_rect.html",tooltip="Class for clipping props when drawing."];
+  Node1 -> Node17 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="MOAITransform2D",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_transform2_d.html",tooltip="2D transformation hierarchy node.   	&lt;table cellpadding=&quot;8&quot;&gt;&lt;tr&gt; &lt;td vertica..."];
+  Node17 -> Node18 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="MOAICamera2D",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_camera2_d.html",tooltip="2D camera."];
+  Node17 -> Node19 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="MOAIProp2D",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_prop2_d.html",tooltip="2D prop."];
+  Node19 -> Node20 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="MOAILayer2D",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_layer2_d.html",tooltip="2D layer.   	&lt;table cellpadding=&quot;8&quot;&gt;&lt;tr&gt; &lt;td vertical-align=&quot;top&quot;&..."];
+}

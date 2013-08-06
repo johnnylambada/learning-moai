@@ -1,0 +1,7 @@
+digraph G
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="MOAITwitterIOS",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_o_a_i_twitter_i_o_s.html",tooltip="Wrapper for Twitter interaction on iOS devices. Only available on iOS 5.0 and above.   	&lt;table cellpadding=&quot;8&quot;&gt;&lt;tr&gt; &lt;td vertical-align=&quot;top&quot;&gt; 		&lt;table border=&quot;1&quot; cellpadding=&quot;4&quot;&gt; 		&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;b&gt;Constants&lt;/b&gt;&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;&lt;b&gt;Description&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt; 		&lt;tr&gt;&lt;td&gt;MOAITwitterIOS.TWEET_SUCCESSFUL&lt;/td&gt;&lt;td&gt; Event indicating a successful Tweet.&lt;/td&gt;&lt;/tr&gt; 		&lt;tr&gt;&lt;td&gt;MOAITwitterIOS.TWEET_CANCELLED&lt;/td&gt;&lt;td&gt; Event indicating an unsuccessful Tweet.&lt;/td&gt;&lt;/tr&gt; 		&lt;/table&gt; 	&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt; 	."];
+}
