@@ -1,3 +1,6 @@
 [submodule "external/moai-dev"]
 	path = external/moai-dev
 	url = https://github.com/moai/moai-dev.git
+[submodule "examples/frogger-shilke2d"]
+	path = examples/frogger-shilke2d
+	url = https://github.com/Shrike78/Frogger-Shilke2D
